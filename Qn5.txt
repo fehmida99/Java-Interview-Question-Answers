@@ -1,0 +1,8 @@
+5. How Java platform is different
+from other platforms?
+Java is a platform independent language. Java compiler converts
+Java code in to byte code that can be interpreted by JVM. There are
+JVM written for almost all the popular platforms in the world.
+Java byte code can run on any supported platform in same way.
+Where as other languages require libraries compiled for a specific
+platform to run.

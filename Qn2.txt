@@ -1,0 +1,7 @@
+2. What is Java Virtual Machine
+(JVM)?
+Java Virtual Machine (JVM) is an abstract machine that executes
+Java Bytecode. There are different JVM for different hardware and
+software platforms. So JVM is platform dependent. JVM is
+responsible for loading, verifying and executing the Bytecode on a
+platform.

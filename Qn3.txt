@@ -1,0 +1,20 @@
+3. What are the different types of
+memory areas allocated by JVM?
+In java, JVM allocates memory to different processes, methods and
+objects. Some of the memory areas allocated by JVM are:
+1. ClassLoader: It is a component of JVM used to load class
+files.
+2. Class (Method) Area: It stores per-class structures such as
+the runtime constant pool, field and method data, and the
+code for methods.
+3. Heap: Heap is created a runtime and it contains the runtime
+data area in which objects are allocated.
+4. Stack: Stack stores local variables and partial results at
+runtime. It also helps in method invocation and return
+value. Each thread creates a private JVM stack at the time
+of thread creation.
+5. Program Counter Register: This memory area contains the
+address of the Java virtual machine instruction that is
+currently being executed.
+6. Native Method Stack: This area is reserved for all the
+native methods used in the application.
