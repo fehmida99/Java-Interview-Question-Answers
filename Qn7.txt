@@ -1,0 +1,14 @@
+7. How does ClassLoader work in
+Java?
+In Java, ClassLoader is a class that is used to load files in JVM.
+ClassLoader loads files from their physical file locations e.g.
+Filesystem, Network location etc.
+There are three main types of ClassLoaders in Java.
+1. Bootstrap ClassLoader: This is the first ClassLoader. It
+loads classes from rt.jar file.
+2. Extension ClassLoader: It loads class files from jre/lib/ext
+location.
+3. Application ClassLoader: This ClassLoader depends on
+CLASSPATH to find the location of class files. If you
+specify your jars in CLASSPATH, then this ClassLoader
+will load them.

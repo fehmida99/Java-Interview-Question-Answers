@@ -1,0 +1,8 @@
+9. Can we write main method as
+public void static instead of public
+static void?
+No, you cannot write it like this. Any method has to first specify the
+modifiers and then the return value. The order of modifiers can
+change.
+We can write static public void main() instead of public static void
+main().

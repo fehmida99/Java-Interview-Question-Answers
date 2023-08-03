@@ -1,0 +1,4 @@
+8. Do you think ‘main’ used for main
+method is a keyword in Java?
+No, main is just a name of method. There can be multiple methods
+with same name main in a class file. It is not a keyword in Java.
