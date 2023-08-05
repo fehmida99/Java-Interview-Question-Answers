@@ -1,0 +1,6 @@
+10.In Java, if we do not specify any
+value for local variables, then what
+will be the default value of the local
+variables?
+Java does not initialize local variables with any default value. So
+these variables will be just null by default.
