@@ -1,6 +1,6 @@
-10.In Java, if we do not specify any
-value for local variables, then what
-will be the default value of the local
-variables?
-Java does not initialize local variables with any default value. So
-these variables will be just null by default.
+11. Let say, we run a java class without
+passing any arguments. What will be
+the value of String array of
+arguments in Main method?
+By default, the value of String array of arguments is empty in Java.
+It is not null.
