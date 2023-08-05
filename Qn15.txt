@@ -1,0 +1,4 @@
+15.In Java what is the default value of
+an object reference defined as an
+instance variable in an Object?
+All the instance variable object references in Java are null.
