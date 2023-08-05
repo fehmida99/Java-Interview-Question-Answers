@@ -1,0 +1,4 @@
+18.What is the value returned by
+Constructor in Java?
+When we call a constructor in Java, it returns the object created by
+it. That is how we create new objects in Java.

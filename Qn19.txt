@@ -1,0 +1,2 @@
+19.Can we inherit a Constructor?
+No, Java does not support inheritance of constructor
