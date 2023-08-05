@@ -1,0 +1,13 @@
+20. Why constructors cannot be final,
+static, or abstract in Java?
+If we set a method as final it means we do not want any class to
+override it. But the constructor (as per Java Language
+Specification) cannot be overridden. So there is no use of marking it
+final.
+If we set a method as abstract it means that it has no body and it
+should be implemented in a child class. But the constructor is called
+implicitly when the new keyword is used. Therefore it needs a
+body.
+If we set a method as static it means that it belongs to the class, but
+not a particular object. The constructor is always called to initialize
+an object. Therefore, there is no use of marking constructor static.
