@@ -1,0 +1,4 @@
+23. Which class in Java is superclass
+of every other class?
+Java is an object oriented programming language. In Java, Object
+class is the superclass of every other class.
