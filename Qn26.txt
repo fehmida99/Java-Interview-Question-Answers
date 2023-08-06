@@ -1,0 +1,13 @@
+26. How aggregation and composition
+are different concepts?
+In OOPS, Aggregation and Composition are the types of association
+relations. A composition is a strong relationship. If the composite
+object is destroyed, then all its parts are destroyed. E.g. A Car has a
+Steering Wheel. If Car object is destroyed, then there is no meaning
+of Steering Wheel.
+In Aggregation, the relationship is weaker than Composition.
+E.g. A Library has students. If a Library is destroyed, Students still
+exist. So Library and Student are related by Aggregation. A Library
+has Books. If Library is destroyed, the Books are also destroyed.
+Books of a Library cannot exist without the Library. So Book and
+Library are related by Composition.
