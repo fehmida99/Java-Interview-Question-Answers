@@ -1,0 +1,10 @@
+22. Explain the concept of
+Inheritance?
+Inheritance is an important concept in Object Oriented
+Programming. Some objects share certain characteristics and
+behavior. By using Inheritance, we can put the common behavior
+and characteristics in a base class which also known as super class.
+And then all the objects with common behavior inherit from this
+base class.
+It is also represented by IS-A relationship.
+Inheritance promotes, code reuse, method overriding and polymorphism.
