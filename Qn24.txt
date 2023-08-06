@@ -1,0 +1,17 @@
+24. Why Java does not support
+multiple inheritance?
+Multiple Inheritance means that a class can inherit behavior from
+two or more parent classes.
+The issue with Multiple Inheritance is that both the parent classes
+may have different implementation for the same method. So they
+have different ways of doing the same thing. Now which
+implementation should the child class choose?
+This leads to ambiguity in Multiple Inheritance. This is the main
+reason for Java not supporting Multiple Inheritance in
+implementation.
+Lets say you have a class TV and another class AtomBomb. Both
+have method switchOn() but only TV has switchOff() method. If
+your class inherits from both these classes then you have an issue
+that you can switchOn() both parents, but switchOff will only
+switchOff() TV.
+But you can implement multiple interfaces in Java.
