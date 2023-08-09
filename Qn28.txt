@@ -1,0 +1,9 @@
+28. If there are no pointers in Java,
+then why do we get
+NullPointerException?
+In Java, the pointer equivalent is Object reference. When we use a .
+it points to object reference. So JVM uses pointers but
+programmers only see object references.
+In case an object reference points to null object, and we try to
+access a method or member variable on it, then we get
+NullPointerException.
