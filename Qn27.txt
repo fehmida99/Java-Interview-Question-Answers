@@ -1,0 +1,9 @@
+27. Why there are no pointers in
+Java?
+In Java there are references instead of pointers. These references
+point to objects in memory. But there is no direct access to these
+memory locations. JVM is free to move the objects within VM
+memory.
+The absence of pointers helps Java in managing memory and
+garbage collection effectively. Also it provides developers with
+convenience of not getting worried about memory allocation and deallocation.
