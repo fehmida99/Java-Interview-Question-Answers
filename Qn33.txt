@@ -1,0 +1,11 @@
+33. Why it is not a good practice to
+create static variables in Java?
+Static variables are common to all the objects of a class. If a new
+object is created, there is no need to test the value of static variable.
+Any code that uses static variable can be in any state. It can be
+within a new object or at a class level. So the scope of static
+variable is open ended in a Java class.
+If we want tighter control on scope, then variables should be
+created at the object creation level.
+Also defining static variables is not a good practice because they go
+against the principles of Object Oriented Programming.
