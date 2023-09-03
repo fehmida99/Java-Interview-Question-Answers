@@ -1,0 +1,10 @@
+34. What is the purpose of static
+method in Java?
+Java provides the feature of static method to create behavior at the
+class level. The static method is common to all the objects of a
+class. We do not need to create any object of a class to call a static
+method. So it provides convenience of not creating an object for
+calling it.
+Also a static method can access and modify static data members.
+This also helps in keeping the behavior as well as state at the class
+level.
