@@ -1,0 +1,42 @@
+What is the Life cycle of Bean in java springboot?
+In Java Spring Boot, the lifecycle of a bean is managed by the Spring Framework's Inversion of Control (IoC) container. Beans are Java objects that are managed by Spring, and they can represent various components in your application, such as services, repositories, controllers, etc. The lifecycle of a Spring bean typically goes through several phases:
+
+1. **Instantiation**: This is the initial phase where Spring creates a new instance of the bean. This can happen through constructor injection or setter injection, depending on your configuration.
+
+2. **Initialization**: After the bean is instantiated, Spring can perform any necessary initialization tasks on the bean, such as setting properties, invoking initialization methods (e.g., `@PostConstruct` annotated methods), and more. Initialization methods are executed after the bean is fully constructed but before it's returned to the caller.
+
+3. **Inversion of Control (IoC) Container Management**: Once the bean is initialized, Spring manages the bean's lifecycle and keeps track of it. Spring manages the beans in a container and provides them as requested by other components in your application.
+
+4. **Bean Usage**: Beans are now available for use in your application. Other beans or components can inject dependencies of this bean and use its functionality.
+
+5. **Destruction**: When the application context is shut down or when the bean is no longer needed, Spring can perform cleanup tasks on the bean, such as invoking destruction methods (e.g., `@PreDestroy` annotated methods) or releasing any resources held by the bean.
+
+6. **Garbage Collection**: Finally, when there are no references to the bean, it becomes eligible for garbage collection by the Java Virtual Machine (JVM).
+
+Here's an example of a Spring bean with initialization and destruction methods:
+
+```java
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+public class MyBean {
+
+    // Initialization method
+    @PostConstruct
+    public void init() {
+        // Initialization code here
+    }
+
+    // Destruction method
+    @PreDestroy
+    public void destroy() {
+        // Cleanup code here
+    }
+
+    // Other bean methods and properties
+}
+```
+
+In this example, the `@PostConstruct` annotated `init()` method is called after the bean is fully constructed and before it's made available for use. The `@PreDestroy` annotated `destroy()` method is called when the bean is being destroyed.
+
+The Spring IoC container manages the bean's lifecycle, including instantiation, initialization, and destruction, making it easier to manage the lifecycle of components in your Spring Boot application.
