@@ -1,0 +1,11 @@
+35. Why do we mark main method as
+static in Java?
+The main method in Java is marked as static, so that JVM can call it
+to start the program. If main method is not static, then which
+constructor will be called by Java process?
+As such it is a known as convention to mark main method static in
+Java. But if we remove the static, then there will be ambiguity. Java
+process may not know which method of a class to call to start the
+program.
+So this convention helps in Java process to identify the starting code
+for a program in class that is passed as an argument to java process.
